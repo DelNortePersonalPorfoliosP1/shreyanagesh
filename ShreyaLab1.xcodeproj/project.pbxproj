@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C85F317232BF23700C856C5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C85F316232BF23700C856C5 /* main.c */; };
+		0C3963A923352CFC0089476B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C3963A823352CFC0089476B /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C3963A723352CFC0089476B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0C3963A823352CFC0089476B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0C85F30B232BF22000C856C5 /* ShreyaLab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShreyaLab1; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C85F315232BF23700C856C5 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../../../../../Desktop/Labs/pythagoraslab/pythagoraslab/Header.h; sourceTree = "<group>"; };
-		0C85F316232BF23700C856C5 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../../../Desktop/Labs/pythagoraslab/pythagoraslab/main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		0C85F30D232BF22000C856C5 /* ShreyaLab1 */ = {
 			isa = PBXGroup;
 			children = (
-				0C85F315232BF23700C856C5 /* Header.h */,
-				0C85F316232BF23700C856C5 /* main.c */,
+				0C3963A723352CFC0089476B /* Header.h */,
+				0C3963A823352CFC0089476B /* main.c */,
 			);
 			path = ShreyaLab1;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C85F317232BF23700C856C5 /* main.c in Sources */,
+				0C3963A923352CFC0089476B /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
